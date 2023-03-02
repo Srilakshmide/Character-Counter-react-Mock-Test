@@ -1,0 +1,91 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.count-container {
+  background-color: #ffc533;
+  width: 50%;
+  padding: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.counter-heading {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.heading-container {
+  background-color: #ffbf1f;
+  padding: 20px;
+}
+
+.char-adding-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.image {
+  width: 73%;
+  align-self: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 60px;
+  padding-bottom: 0px;
+}
+
+.char-container {
+  background-color: #0f172a;
+  width: 50%;
+  padding: 30px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffc533;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #272c47;
+  font-weight: 500;
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+}
+
+.button {
+  width: 90px;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #ffbf1f;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  color: #475569;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
